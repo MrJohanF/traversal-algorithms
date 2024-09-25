@@ -16,6 +16,8 @@ class Graph {
         this.adjacencyList[vertex2].push(vertex1);
     }
 
+
+    
     bfs(start) {
         const queue = [start];
         const result = [];
